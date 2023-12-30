@@ -140,3 +140,43 @@ p{
 }
 
 
+/* feature-section */
+
+.feature-section{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.fe-box img{
+  width: 100%;
+  height: 130px;
+
+}
+
+.fe-box{
+  width: 200px;
+  text-align: center;
+  padding: 25px 15px;
+  border: 1px solid #e0d9d9;
+  box-shadow: 15px 15px 50px rgb(209, 206, 152);
+  border-radius: 4px;
+  background-color: rgb(255, 252, 232);
+  margin: auto;
+  cursor: pointer;
+
+}
+
+.fe-box:hover{
+  box-shadow: 8px 8px 54px rgb(209, 206, 152);
+
+}
+
+.fe-box h6{
+  padding: 0 8px ;
+  line-height: 1;
+  color: brown;
+  margin-top: 8px;
+}
+
