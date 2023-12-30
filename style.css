@@ -279,6 +279,7 @@ p{
 .banner h4{
   color: #f1d8d8;
   font-size: 16px;
+  margin-top: 40px;
 
 }
 
@@ -302,6 +303,7 @@ p{
   border-radius: 5px;
   border: none;
   cursor: pointer;
+  margin-bottom: 20px;
 }
 
 .banner button:hover{
