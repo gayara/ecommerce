@@ -394,7 +394,7 @@ p{
 .small-banner2 .banner-box{
   display: flex;
   flex-direction: column;
-  justify-content:end;
+  justify-content:center;
   align-items: flex-start;
   text-align:center;
   background-image: url(images/banner/banner3.jpg);
@@ -413,9 +413,10 @@ p{
 }
 
 .small-banner2 .banner-box h3{
-  color: #2f2163;
+  color: #bea305;
   font-weight: 800;
   font-size: 14px;
+
 
 }
 
@@ -425,4 +426,78 @@ p{
 
 .small-banner2 .box3{
   background-image: url(images/banner/banner2.jpg);
+}
+
+
+/* footer section */
+
+.footer-section{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  background-color: beige;
+  margin-top: 30px;
+}
+
+.footer-section .col{
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.footer-section .logo{
+  margin-bottom: 30px;
+}
+
+.footer-section h4{
+  font-size: 14px;
+  padding-bottom: 20px;
+}
+
+.footer-section p{
+  font-size: 13px;
+  margin-bottom: 8px;
+
+}
+
+.footer-section a{
+  font-size: 13px;
+  text-decoration: none;
+  color: #222;
+  margin-bottom: 10px;
+}
+
+.footer-section .follow{
+  margin-top: 20px;
+}
+
+.footer-section .follow i{
+  color: #465b52;
+  cursor: pointer;
+  padding-right: 10px;
+}
+
+.footer-section .follow i:hover,
+.footer-section a:hover{
+  color: blue;
+}
+.install .row img{
+  width: auto;
+  height: 10vh;
+  border: 1px solid rgb(31, 23, 23);
+  border-radius: 6px;
+  margin-bottom: 15px;
+  
+
+}
+
+.install  img{
+  margin-top: 10px 0 50px 0;
+}
+
+.copyright{
+  width: 100%;
+  text-align: center;
+  color: #422020;
 }
